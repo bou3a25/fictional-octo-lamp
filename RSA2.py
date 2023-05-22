@@ -14,7 +14,7 @@ def is_key_expired(created_time, duration):
 def generate_new_key_pair():
     key_pair = generate_rsa_key_pair()
     created_time = datetime.now()
-    duration = 3600  # 1 hour (you can set the desired duration in seconds)
+    duration = 120  # 1 hour (you can set the desired duration in seconds)
     return key_pair, created_time, duration
 
 def encrypt_file(input_file, output_file, public_key):
