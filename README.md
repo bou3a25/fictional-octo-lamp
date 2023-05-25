@@ -1,5 +1,5 @@
-﻿# fictional-octo-lamp \n
+﻿# fictional-octo-lamp
 
-#python -m venv myenv \n
-#.\myenv\Scripts\Activate \n
-#pip install -r requirements.txt \n
+# python -m venv myenv
+# .\myenv\Scripts\Activate
+# pip install -r requirements.txt
